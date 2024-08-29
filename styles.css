@@ -1,0 +1,35 @@
+div{
+ 
+  background-color: red;
+  height: 20px;
+  width: 20px;
+  position: relative;
+  margin:auto;
+  align-content: center;
+  padding: 10px;
+  border-color: red red red red;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 50%;
+  animation-name:  rBorder;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  
+}
+
+
+@keyframes rBorder {
+  0%{border-color: red red red red;}
+  5%{border-color: red red red red;}
+  10%{border-color: black red red red;}
+  25%{border-color: black black red red;}
+  50%{border-color: black  black black  red;}
+  100%{border-color: black   black black black;}
+}
+
+p{
+  display: inline;
+  margin: 100px 0px 0px 520px;
+  
+}
